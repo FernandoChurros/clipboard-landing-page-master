@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 1000px) {
-	.image_desktop {
+	.--image {
 		width: 90%;
 	}
 }
