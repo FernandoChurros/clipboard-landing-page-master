@@ -16,12 +16,18 @@
 .contatos_navigation a {
 	line-height: 3;
 	text-decoration: none;
-	color: var(--cor-dark-grayish-blue)
+	color: var(--cor-dark-grayish-blue);
+	transition: color 200ms linear;
+}
+
+.contatos_navigation a:hover {
+	color: var(--cor-strong-cyan);
 }
 
 .contatos_social {
 	margin: 2rem 0;
 }
+
 
 .contatos_social a:nth-child(2) {
 	margin: 0 1rem;

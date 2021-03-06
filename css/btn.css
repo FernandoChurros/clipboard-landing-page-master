@@ -3,6 +3,12 @@
 	border-radius: 50px;
 	color: #FFF;
 	padding: 1rem;
+	transition: transform 200ms linear;
+}
+
+.btn:hover {
+	cursor: pointer;
+	transform: scale(.99);
 }
 
 .btn.--IOS {
