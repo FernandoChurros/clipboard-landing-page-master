@@ -1,0 +1,15 @@
+.btn {
+	border: 0;
+	border-radius: 50px;
+	color: #FFF;
+	padding: 1rem;
+	width: 100%;
+}
+
+.btn.--IOS {
+	background-color: var(--cor-strong-cyan);
+	margin-bottom: 1rem;
+}
+.btn.--MAC {
+	background-color: var(--cor-light-blue);
+}

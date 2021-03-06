@@ -1,0 +1,24 @@
+body {
+	background-image: url(../images/bg-header-mobile.png);
+	background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--cor-dark-grayish-blue);
+	font-weight: 600;
+}
+
+p {
+	line-height: 1.5;
+}
+
+:root {
+	color: var(--cor-grayish-blue);
+	font-family: 'Bai Jamjuree', sans-serif;
+	font-size: 18px;
+
+	--cor-strong-cyan: hsl(171, 66%, 44%);
+	--cor-light-blue: hsl(233, 100%, 69%);
+	--cor-dark-grayish-blue: hsl(210, 10%, 33%);
+	--cor-grayish-blue: hsl(201, 11%, 66%);
+}

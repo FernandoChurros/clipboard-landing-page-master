@@ -1,0 +1,13 @@
+.banner {
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.wrapper-banner {
+	margin: 5rem 0;
+}
+
+.banner p {
+	margin: 2rem 0;
+}
