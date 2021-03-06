@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 1000px) {
-	.utility img {
+	.image_desktop {
 		width: 90%;
 	}
 }
