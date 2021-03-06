@@ -2,20 +2,15 @@
 	background-color: var(--cor-grayish-blue);
 	margin-top: 5rem;
 	display: flex;
-	flex-flow: column;
-	align-items: center;
 }
 
 .contatos_navigation {
 	display: flex;
-	flex-flow: column;
-	align-items: center;
 	margin-top: 2rem;
 }
 
 .logo {
 	width: 67px;
-	margin-top: 3rem;
 }
 
 .contatos_navigation a {
@@ -30,4 +25,38 @@
 
 .contatos_social a:nth-child(2) {
 	margin: 0 1rem;
+}
+
+@media (max-width: 1000px) {
+	.logo {
+		margin-top: 3rem;
+	}
+
+	.contatos {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contatos_navigation {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media (min-width: 1000px) {
+	.contatos {
+		justify-content: space-around;
+		align-items: center;
+		height: 200px;
+	}
+
+	.contatos_navigation {
+		width: 44%;
+		flex-wrap: wrap;
+	}
+
+	.contatos_navigation a {
+		width: 120px;
+		margin-right: 3rem;
+	}
 }

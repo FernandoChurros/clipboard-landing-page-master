@@ -3,6 +3,40 @@
 }
 
 .utility img {
-	width: 90%;
 	margin-bottom: 3rem;
+}
+
+@media (max-width: 1000px) {
+	.utility img {
+		width: 90%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.utility {
+		margin: 5rem auto 10rem auto;
+	}
+
+	.image_desktop {
+		width: 500px;
+		float: left;
+	}
+
+	.main_subtitle {
+		width: 53%;
+		margin: 0 auto;
+	}
+
+	.main_subtitle:first-child {
+		margin-bottom: 5rem;
+	}
+
+	.workflow {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+	}
+	.workflow div {
+		width: 30%;
+	}
 }

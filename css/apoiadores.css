@@ -1,14 +1,36 @@
 .apoiadores {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 
 .apoiadores img {
 	width: 100px;
 	margin: 2rem 0;
+	object-fit: contain;
 }
 
-.apoiadores img:last-child {
-	margin-bottom: 10rem;
+@media (max-width: 1000px) {
+	.apoiadores {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.apoiadores img:last-child {
+		margin-bottom: 10rem;
+	}
+}
+
+@media (min-width: 1000px) {
+	.apoiadores {
+		display: row;
+		justify-content: center;
+		margin: 2rem 0;
+	}
+
+	.apoiadores img {
+		margin-right: 5rem;
+	}
+
+	.apoiadores img:last-child {
+		margin-right: 0;
+	}
 }

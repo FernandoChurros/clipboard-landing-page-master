@@ -1,7 +1,29 @@
-.wrapper-banner {
-	margin: 5rem 0;
+.banner {
+	width: 90%;
 }
 
 .banner p {
 	margin: 2rem 0;
+}
+
+@media (max-width: 1000px) {
+	body {
+		background-image: url(../../images/bg-header-desktop.png);
+		background-repeat: no-repeat;
+	}
+
+	.banner {
+		margin: 5rem 0;
+	}
+}
+
+@media (min-width: 1000px) {
+	body {
+		background-image: url(../../images/bg-header-desktop.png);
+		background-repeat: no-repeat;
+	}
+
+	.banner {
+		margin: 5rem auto;
+	}
 }
