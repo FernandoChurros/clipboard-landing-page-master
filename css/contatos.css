@@ -1,0 +1,33 @@
+.contatos {
+	background-color: var(--cor-grayish-blue);
+	margin-top: 5rem;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.contatos_navigation {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	margin-top: 2rem;
+}
+
+.logo {
+	width: 67px;
+	margin-top: 3rem;
+}
+
+.contatos_navigation a {
+	line-height: 3;
+	text-decoration: none;
+	color: var(--cor-dark-grayish-blue)
+}
+
+.contatos_social {
+	margin: 2rem 0;
+}
+
+.contatos_social a:nth-child(2) {
+	margin: 0 1rem;
+}

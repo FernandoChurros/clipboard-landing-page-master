@@ -1,0 +1,14 @@
+.apoiadores {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.apoiadores img {
+	width: 100px;
+	margin: 2rem 0;
+}
+
+.apoiadores img:last-child {
+	margin-bottom: 10rem;
+}
